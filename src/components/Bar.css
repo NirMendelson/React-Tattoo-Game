@@ -1,0 +1,18 @@
+.bar {
+    background-color: #502064;
+    margin: 0;
+    padding: 12px 0;
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: x-large;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #8267BE;
+}
+
+
