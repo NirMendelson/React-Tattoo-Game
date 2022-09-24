@@ -1,12 +1,15 @@
-import React from 'react';
-import "./PhotoElement.css"
+import React from "react";
+import "./PhotoElement.css";
 
-function PhotoElement() {
+function PhotoElement(props) {
     return (
         <div>
+        <a>
             <img
-            src="https://upload.wikimedia.org/wikipedia/commons/8/85/Selena_Gomez_-_Walmart_Soundcheck_Concert.jpg"
-            alt="selena-gomez"></img>
+            src={props.img}
+            alt={props.name}>
+            </img>
+        </a>
         </div>
     );
 }
