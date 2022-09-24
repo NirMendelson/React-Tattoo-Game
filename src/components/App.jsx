@@ -1,14 +1,12 @@
 import React from 'react';
 import Bar from "./Bar";
-import PhotoElement from './PhotoElement';
+import PhotoContainer from './PhotoContainer';
 
 function App() {
     return (
         <div>
         <Bar />
-        <PhotoElement />
-        <PhotoElement />
-        <PhotoElement />
+        <PhotoContainer />
         </div>
     );
 }
